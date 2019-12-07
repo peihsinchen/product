@@ -11,3 +11,8 @@ while True:
     # products.append(p) 這行+上行等於下行
     products.append([name, price])
 print(products)
+
+for p in products:
+    print(p)
+for p in products:
+    print(p[0],'的價格是', p[1])
